@@ -14,3 +14,17 @@ CMD python main.py
 docker build -t hello-docker .
 ```
 
+To see all the docker images,
+```sh
+docker image ls
+```
+
+To run the docker image,
+```sh
+docker run <image-name>
+```
+
+To pull a docker image from docker hub,
+```sh 
+docker pull <image-name>
+```
