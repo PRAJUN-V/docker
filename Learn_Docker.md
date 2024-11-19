@@ -1,6 +1,6 @@
 # Learn Docker
 
-Tutorial followed: (CodeWithMosh)[https://www.youtube.com/watch?v=pTFZFxd4hOI]
+Tutorial followed: [CodeWithMosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
 Inside working dir create a file named: Dockerfile
 To check the docker hub created go to: https://hub.docker.com/
 
