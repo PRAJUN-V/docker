@@ -55,7 +55,10 @@ To remove docker images,
 docker image rm <image_id1> <image_id2>
 ```
 
+Before removing the images we need to remove containers first,
 To remove all the docker images at once,
+Note: use powershell to run this code.
 ```sh
-docker image rm $(docker image ls -q)
+docker container rm -f $(docker container ls -aq)
+docker image rm -f $(docker image ls -q)
 ```
