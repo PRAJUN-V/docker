@@ -44,3 +44,18 @@ To run ubuntu in interactive mode,
 ```sh
 docker run -it ubuntu
 ```
+
+To check docker-compose is installed,
+```sh
+docker-compose --version
+```
+
+To remove docker images,
+```sh
+docker image rm <image_id1> <image_id2>
+```
+
+To remove all the docker images at once,
+```sh
+docker image rm $(docker image ls -q)
+```
